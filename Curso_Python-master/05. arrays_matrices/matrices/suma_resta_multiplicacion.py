@@ -1,7 +1,8 @@
 import numpy as np
 
-#filas = int(input('Ingrese el número de filas de las matrices '))  # 3
-#columnas = int(input('\nIngrese el número de columnas de las matrices '))  # 6
+
+filas = int(input('Ingrese el número de filas de las matrices '))  # 3
+columnas = int(input('\nIngrese el número de columnas de las matrices '))  # 6
 
 
 def crear_matriz(filas, columnas):
@@ -18,15 +19,19 @@ def crear_matriz(filas, columnas):
     return e_fil
 
 
-#matrizA = np.array(crear_matriz(filas, columnas))
-#matrizB = np.array(crear_matriz(filas, columnas))
+matrizA = np.array(crear_matriz(filas, columnas))
+matrizB = np.array(crear_matriz(filas, columnas))
 
-#suma = matrizA + matrizB
-#resta = matrizA - matrizB
-#multiplicacion = matrizA * matrizB
+print(matrizA)
+print(matrizB)
 
-#print(f"Suma de matrices: \n{suma} \n\n Resta de matrices: \n{resta} \n\n Multiplicación de matrices: \n{multiplicacion}")
+suma = matrizA + matrizB
+resta = matrizA - matrizB
+multiplicacion = matrizA * matrizB
 
+print(f"Suma de matrices: \n{suma} \n\n Resta de matrices: \n{resta} \n\n Multiplicación de matrices: \n{multiplicacion}")
+
+'''
 def multiplicar_matrices(matrizA, matrizB):
     if len(matrizA[0]) == len(matrizB):
         # creando las dimensiones de la matriz resultante
@@ -56,3 +61,5 @@ else:
         for elemento in fila:
             print(elemento, end=" ")
         print(']')
+
+'''
