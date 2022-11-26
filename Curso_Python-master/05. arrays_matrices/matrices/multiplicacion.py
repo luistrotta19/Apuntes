@@ -47,5 +47,7 @@ if columnasA == filasB:
     for i in matrizC:
         print(i)
 
+    print(len(matrizB))    
+
 else:
     print('No se puede efectuar la multiplicación')
