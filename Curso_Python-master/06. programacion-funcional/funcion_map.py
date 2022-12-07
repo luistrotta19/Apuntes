@@ -12,6 +12,6 @@ objeto_map = map(empezar_con_A, frutas)
 print(list(objeto_map))
 
 # utilizando lambdas
-frutas = ["Banana", "Manzana", "Maracuyá", "Mango", "Anón"]
-objeto_map = map(lambda x: x[0] == "B", frutas)
-print(list(objeto_map))
+#frutas = ["Banana", "Manzana", "Maracuyá", "Mango", "Anón"]
+#objeto_map = map(lambda x: x[0] == "B", frutas)
+#print(list(objeto_map))
