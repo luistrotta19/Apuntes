@@ -13,5 +13,5 @@ print(reduce(add, numeros))
 
 # utilizando lambdas
 numeros = [2, 4, 7, 3]
-print(reduce(lambda x,y: x+y, numeros))
+print(reduce(lambda x,y: x+y, numeros,2))
 print("Con valor inicial: " + str(reduce(lambda x,y: x+y, numeros, 10)))
